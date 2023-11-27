@@ -1,0 +1,93 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: grey;
+}
+
+img {
+    width: 100px;
+    height: 238px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.nombre {
+    display: flex;
+    flex-direction: column;
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.datos_personales {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: rgb(199, 196, 196);
+    width: 60%;
+}
+
+.experiencia_acercademica {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    background-color: white;
+
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    height: 2em;
+}
+
+.borde {
+    border: 1px solid blue;
+    width: 200px;
+    height: 1em;
+}
+
+.relleno {
+    background-color: blue;
+    width: 70%;
+    color: blue;
+}
+
+.relleno2{
+    background-color: blue;
+    width: 80%;
+    color: blue;
+}
+
+.relleno3{
+    background-color: blue;
+    width: 50%;
+    color: blue;
+}
+
+.relleno4{
+    background-color: blue;
+    width: 40%;
+    color: blue;
+}
+
+.relleno5{
+    background-color: blue;
+    width: 70%;
+    color: blue;
+}
+
+.relleno6{
+    background-color: blue;
+    width: 30%;
+    color: blue;
+}
